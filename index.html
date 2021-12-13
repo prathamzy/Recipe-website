@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script&family=Press+Start+2P&family=Syncopate&display=swap"
+        rel="stylesheet">
+    <style>
+        .navbar li {
+            float: left;
+            list-style: none;
+            border: solid;
+            color: blue;
+            padding: 10px;
+            margin: 10px;
+            margin-left: 24px;
+            background-color: #f4fffe;
+            cursor: pointer;
+            border-radius: 50px;
+
+
+        }
+
+        .navborder {
+
+            border-width: 5px;
+            height: 66px;
+            padding-left: 2px;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 2px;
+        }
+
+        img {
+            width: 1500px;
+        }
+
+        body {
+            background-color: rgb(158, 236, 200);
+            background-image: url(https://res.cloudinary.com/hz3gmuqw6/image/upload/c_fill,q_60,w_750/food-trends-2021-phprMLwAP);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            height: 990px;
+        }
+
+        .enter {
+            color: white;
+        }
+
+        .p1 {
+            color: #0b0b0b;
+            font-size: 40px;
+            margin-top: 50px;
+            margin-bottom: 17px;
+            display: inline-block;
+            margin-top: 170px;
+            margin-left: 40px;
+            font-family: 'Dancing Script', cursive;
+            font-style: bold;
+            font-size: 53px;
+        }
+
+        .in1 {
+
+            font-size: x-large;
+            padding: 4px;
+            margin-left: 40px;
+            font-family: 'Dancing Script', cursive;
+            display: inline-block;
+            margin-top: 0px;
+            font-size: 48px;
+        }
+
+        input {
+            height: 36px;
+            width: 165px;
+            padding: 8px;
+            background-color: #f7fffd;
+            border-radius: 83px;
+        }
+
+        .submit {
+            color: red;
+            background-color: #fff7f7;
+
+            font-size: 18px;
+            font-style: bold;
+            font-family: bold;
+            margin-top: 60px;
+            margin-left: 100px;
+            margin-top: 110px;
+            cursor: pointer;
+
+
+        }
+
+        #recipe1 {
+            margin-left: 59px;
+            font-size: 18px;
+            color: #c27d7d;
+            border-color: #3f3fe6;
+            border-style: groove;
+            border-width: 3px;
+            border-radius: 80px;
+            padding: 53px;
+            padding-top: 22px;
+
+        }
+
+        .p4 {
+            padding-left: 45px;
+            font-family: 'Dancing Script', cursive;
+            font-size: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navborder">
+                <li>Home</li>
+                <li>Search Recipes</li>
+                <li>Contact</li>
+                <li>Sign up</li>
+                <li>Login</li>
+
+            </ul>
+        </nav>
+    </header>
+    <span class="p1">
+        &rarr; Write Recipes here you know
+    </span>
+    <br>
+    <span class="in1">
+        &rarr; Name of the food <input type="text" placeholder="Type here">
+    </span>
+    <br>
+    <p class="p4"> &rarr;Write the Recipe here</p>
+    <textarea name="recipe" id="recipe1" cols="30" rows="5"
+        placeholder="Write the Recipe here and submit below."></textarea>
+    <br>
+    <input type="submit" class="submit">
+
+
+
+
+</body>
+
+</html>
